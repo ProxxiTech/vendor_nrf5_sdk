@@ -3,5 +3,5 @@
   "name": "framework-nordic-sdk",
   "system": "*",
   "url": "https://developer.nordicsemi.com/nRF5_SDK/",
-  "version": "sdk15.3.0-sd7.0.0-uarte"
+  "version": "15.3.0-sd7.0.0-uarte"
 }
