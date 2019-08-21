@@ -100,7 +100,7 @@ extern "C" {
   ))
 
 /**@brief Interrupts used by the SoftDevice, with IRQn in the range 32-63. */
-#define __NRF_NVIC_SD_IRQS_1 ((uint32_t)0)
+#define __NRF_NVIC_SD_IRQS_1 ((uint32_t)(1U << (MWU_IRQn - 32)))
 
 /**@brief Interrupts available for to application, with IRQn in the range 0-31. */
 #define __NRF_NVIC_APP_IRQS_0 (~__NRF_NVIC_SD_IRQS_0)
